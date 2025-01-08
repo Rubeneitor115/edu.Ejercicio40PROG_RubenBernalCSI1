@@ -46,6 +46,7 @@ public class Inicio {
 					String temp = nombres.get(j);
                     nombres.set(j, nombres.get(j + 1));
                     nombres.set(j + 1, temp);
+                    control = true;
 				}
 			}
 			if(!control) {
